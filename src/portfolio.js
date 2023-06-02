@@ -291,12 +291,12 @@ const achievementSection = {
       imageAlt: "Smart India Hackathon Logo",
       footerLink: [
         {
-          name: "Internal Hackathon Certificate",
-          url: "https://drive.google.com/file/d/1n71phnhszCJBnIQh8ARHiO3i5VKP63qB/view?usp=sharing"
-        },
-        {
           name: "Grand Finale Certificate",
           url: "https://drive.google.com/file/d/1mulcnxw9BezhqwFv1TOpnuyXN3gzrvW0/view?usp=sharing"
+        },
+        {
+          name: "Internal Hackathon Certificate",
+          url: "https://drive.google.com/file/d/1n71phnhszCJBnIQh8ARHiO3i5VKP63qB/view?usp=sharing"
         },
         {
           name: "CSI Appreciation Certificate",
