@@ -51,15 +51,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE DATA AND BUILD ML MODELS!",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+  skills: [],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -112,7 +104,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Pillai College of Engineering, Mumbai University",
-      logo: require("./assets/images/CollegeLogo.png"),
+      logo: require("./assets/images/CollegeLogo.webp"),
       subHeader: "B. Tech in Computer Science",
       duration: "July 2020 - June 2024",
       desc: "Contributed in developing the college's festival app.",
@@ -161,7 +153,7 @@ const workExperiences = {
     {
       role: "Team Leader | Front-End Dev",
       company: "Smart India Hackathon",
-      companylogo: require("./assets/images/sihLogo.png"),
+      companylogo: require("./assets/images/sihLogo.webp"),
       date: "March 2022 – August 2022",
       desc: "Lead the team, one of the few teams across the country to get qualified for Grand Finale for National Hackathon.",
       // descBullets: [
@@ -172,14 +164,14 @@ const workExperiences = {
     {
       role: "Flutter Developer Intern",
       company: "Alegria - The Festival of Joy",
-      companylogo: require("./assets/images/alegriaLogo.png"),
+      companylogo: require("./assets/images/alegriaLogo.webp"),
       date: "September 2022 – February 2023",
       desc: "Created the app for one of the largest college festival events in India. Developed the app using Flutter & Dart. Designed on Figma."
     },
     {
       role: "Team Leader | Back-End Dev",
       company: "Deep Blue Hackathon by Mastek",
-      companylogo: require("./assets/images/deepblueLogo.png"),
+      companylogo: require("./assets/images/deepblueLogo.webp"),
       date: "December 2022 – April 2023",
       desc: "Lead the team, qualified for Semi-finale. Worked as a Backend Developer in the team. Built necessary APIs for Machine Learning Models."
     }
@@ -295,7 +287,7 @@ const achievementSection = {
       title: "Smart India Hackathon",
       subtitle:
         "One of the few teams reach the Grand Finale of the National Hackathon",
-      image: require("./assets/images/sihLogo.png"),
+      image: require("./assets/images/sihLogo.webp"),
       imageAlt: "Smart India Hackathon Logo",
       footerLink: [
         {
@@ -316,7 +308,7 @@ const achievementSection = {
       title: "Deep Blue Hackathon",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/deepblueLogo.png"),
+      image: require("./assets/images/deepblueLogo.webp"),
       imageAlt: "Deep Blue Hackathon Logo",
       footerLink: [
         {
