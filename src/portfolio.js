@@ -292,11 +292,15 @@ const achievementSection = {
       footerLink: [
         {
           name: "Internal Hackathon Certificate",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1n71phnhszCJBnIQh8ARHiO3i5VKP63qB/view?usp=sharing"
         },
         {
           name: "Grand Finale Certificate",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1mulcnxw9BezhqwFv1TOpnuyXN3gzrvW0/view?usp=sharing"
+        },
+        {
+          name: "CSI Appreciation Certificate",
+          url: "https://drive.google.com/file/d/1muXa220gBYdzGQSan17CBW2SodCIl93z/view?usp=sharing"
         },
         // {
         //   name: "Google Code-in Blog",
@@ -313,7 +317,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Semi-Finalist Certificate",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://drive.google.com/file/d/1flCPPp2sGaght5Ilt46CDF20lXA2Luw0/view?usp=sharing"
         }
       ]
     },
