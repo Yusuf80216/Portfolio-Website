@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Machine Learning Enthusiast | Aspiring Data Scientist"
   ),
-  // resumeLink:
-  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:
+    "https://drive.google.com/file/d/1oFn74Tq6-dxlCEiua-8l4aLg4lv924Iq/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
