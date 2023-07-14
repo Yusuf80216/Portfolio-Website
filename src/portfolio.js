@@ -26,7 +26,7 @@ const greeting = {
     "Machine Learning Enthusiast | Aspiring Data Scientist"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/19NQk5PJLC8shFiyMzkR2x4i-UPOOT9f3/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1tekumzrZ3S8omrudx35RrXVNDoJC8Dpk/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -139,7 +139,7 @@ const techStack = {
     },
     {
       Stack: "Deep Learning",
-      progressPercentage: "50%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -206,14 +206,47 @@ const bigProjects = {
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Spaceship Titanic Kaggle Competition",
-      projectDesc: "A kaggle competition to predict passengers teleported to another dimension.",
+      projectName: "Tweets Sentiment Analysis",
+      projectDesc: "A sentiment analyzer model which can detect based on the given tweet input, whether it is a positive tweet or a negative tweet",
       footerLink: [
         {
           name: "View Code",
-          url: "https://github.com/Yusuf80216/Spaceship-Titanic-Kaggle-Competition"
+          url: "https://github.com/Yusuf80216/Tweets-Sentiment-Analysis/blob/main/Natural_Language_Processing_with_Disaster_Tweets.ipynb"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Fake News Classifier",
+      projectDesc: "A fake news detection model, that classifies whether a particular news is fake or not.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Yusuf80216/Fake-News-Classifier-using-LSTM/blob/main/fake_news_classifier(LSTM).ipynb"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Health Sector Classifier",
+      projectDesc: "This project involves classifying whether a particular person belongs to the Health sector or not, based on various parameters.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Yusuf80216/Health-Sector-Prediction/blob/main/Health%20Sector%20Prediction.ipynb"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Rice Type Classification",
+      projectDesc: "This is an image classification project using VGG19, which detects the type of rice given as an image input.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Yusuf80216/Rice-Image-Classification-using-CNN/blob/main/Rice_Image_Classification_(CNN_VGG19).ipynb"
+        }
       ]
     },
     {
