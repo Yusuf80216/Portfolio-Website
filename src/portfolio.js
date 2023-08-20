@@ -26,7 +26,7 @@ const greeting = {
     "Machine Learning Enthusiast | Aspiring Data Scientist"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1896IIQIndo5fkPS6jU7mC6D1rrsNEeis/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1JnBd9T58oSFf3JalMvAaN6sNQukScyvV/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
