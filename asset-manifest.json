@@ -1,18 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.4b888d83.css",
-    "main.js": "/Portfolio-Website/static/js/main.f8bd6849.js",
+    "main.js": "/Portfolio-Website/static/js/main.658655db.js",
     "static/css/64.917cfe77.chunk.css": "/Portfolio-Website/static/css/64.917cfe77.chunk.css",
     "static/js/64.de24b5b0.chunk.js": "/Portfolio-Website/static/js/64.de24b5b0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/Portfolio-Website/static/css/769.70f3b610.chunk.css",
     "static/js/769.7f15e30f.chunk.js": "/Portfolio-Website/static/js/769.7f15e30f.chunk.js",
-    "static/media/Reminders_App.webp": "/Portfolio-Website/static/media/Reminders_App.cd5c00f5e67ea59df08c.webp",
-    "static/media/Calculator App.webp": "/Portfolio-Website/static/media/Calculator App.17437f1cb6c1fd9ad16d.webp",
-    "static/media/Blood_Donation_App.webp": "/Portfolio-Website/static/media/Blood_Donation_App.f794f80c4bcab09a960c.webp",
     "static/media/Montserrat-Regular.ttf": "/Portfolio-Website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/Portfolio-Website/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/alegriaLogo.webp": "/Portfolio-Website/static/media/alegriaLogo.6a1461a6b5d66cef2d89.webp",
-    "static/media/To-Do_App.webp": "/Portfolio-Website/static/media/To-Do_App.4c51065e4d8c1ef286bf.webp",
     "static/media/manOnTable.svg": "/Portfolio-Website/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/Portfolio-Website/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/Portfolio-Website/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -23,7 +19,7 @@
     "index.html": "/Portfolio-Website/index.html",
     "static/media/talksCardBack.svg": "/Portfolio-Website/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4b888d83.css.map": "/Portfolio-Website/static/css/main.4b888d83.css.map",
-    "main.f8bd6849.js.map": "/Portfolio-Website/static/js/main.f8bd6849.js.map",
+    "main.658655db.js.map": "/Portfolio-Website/static/js/main.658655db.js.map",
     "64.917cfe77.chunk.css.map": "/Portfolio-Website/static/css/64.917cfe77.chunk.css.map",
     "64.de24b5b0.chunk.js.map": "/Portfolio-Website/static/js/64.de24b5b0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/Portfolio-Website/static/css/769.70f3b610.chunk.css.map",
@@ -31,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.4b888d83.css",
-    "static/js/main.f8bd6849.js"
+    "static/js/main.658655db.js"
   ]
 }
