@@ -26,7 +26,7 @@ const greeting = {
     "Machine Learning Enthusiast | Aspiring Data Scientist"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1JnBd9T58oSFf3JalMvAaN6sNQukScyvV/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HUDcIRO7_7PXqQcSpszdlQlh4pH3PM7D/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -107,7 +107,7 @@ const educationInfo = {
       logo: require("./assets/images/CollegeLogo.webp"),
       subHeader: "B. Tech in Computer Science",
       duration: "July 2020 - June 2024",
-      desc: "Contributed in developing the college's festival app.",
+      desc: "Machine Learning | Artificial Intelligence | NLP | Software Engineering | Operating Systems | DBMS",
       // descBullets: [
       //   "",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -131,14 +131,22 @@ const techStack = {
   experience: [
     {
       Stack: "Machine Learning", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
-    },
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },  
     {
-      Stack: "Flutter",
-      progressPercentage: "85%"
-    },
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },  
     {
       Stack: "Deep Learning",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Data Science", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "LLMs",
       progressPercentage: "60%"
     }
   ],
@@ -194,19 +202,30 @@ const bigProjects = {
   projects: [
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Movie Recommender System",
-      projectDesc: "A movie recommendation system model, that recommends movies based on given input.",
+      projectName: "AI Meetings Transcriber & Summarizer",
+      projectDesc: "Meeting Transcription & Summary Generator Tool",
       footerLink: [
         {
           name: "View Code",
-          url: "https://github.com/Yusuf80216/Movie-Recommender-System"
+          url: "https://github.com/Yusuf80216/Meet---Transcriptor-Summarizer"
         }
         //  you can add extra buttons here.
       ]
     },
     {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "QnATables: An Intelligent Question Answering System",
+      projectDesc: "Question Answering System to answer question over tables in a document",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Yusuf80216/QnATables-An-Intelligent-Question-Answering-System"
+        }
+      ]
+    },
+    {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Tweets Sentiment Analysis",
+      projectName: "Tweets Sentiment Analyzer",
       projectDesc: "A sentiment analyzer model which can detect based on the given tweet input, whether it is a positive tweet or a negative tweet",
       footerLink: [
         {
@@ -214,17 +233,6 @@ const bigProjects = {
           url: "https://github.com/Yusuf80216/Tweets-Sentiment-Analysis/blob/main/Natural_Language_Processing_with_Disaster_Tweets.ipynb"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Fake News Classifier",
-      projectDesc: "A fake news detection model, that classifies whether a particular news is fake or not.",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/Fake-News-Classifier-using-LSTM/blob/main/fake_news_classifier(LSTM).ipynb"
-        }
       ]
     },
     {
@@ -260,49 +268,49 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/Reminders_App.webp"),
-      projectName: "Reminders' App",
-      projectDesc: "A Basic reminder noting app, created using Flutter & Dart",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/Reminders-App"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/To-Do_App.webp"),
-      projectName: "To-Do App",
-      projectDesc: "A Basic note taking app, created using Flutter & Dart",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/TO-DO--APP"
-        }
-      ]
-    },{
-      image: require("./assets/images/Calculator App.webp"),
-      projectName: "Simple Calculator",
-      projectDesc: "A simple operation solver calculator app, created using Flutter & Dart",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/Calculator-App"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/Blood_Donation_App.webp"),
-      projectName: "Blood Donation App",
-      projectDesc: "A UI design implementation for a blood donation app, created using Flutter & Dart",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/Blood-Donation_App"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/Reminders_App.webp"),
+    //   projectName: "Reminders' App",
+    //   projectDesc: "A Basic reminder noting app, created using Flutter & Dart",
+    //   footerLink: [
+    //     {
+    //       name: "View Code",
+    //       url: "https://github.com/Yusuf80216/Reminders-App"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/To-Do_App.webp"),
+    //   projectName: "To-Do App",
+    //   projectDesc: "A Basic note taking app, created using Flutter & Dart",
+    //   footerLink: [
+    //     {
+    //       name: "View Code",
+    //       url: "https://github.com/Yusuf80216/TO-DO--APP"
+    //     }
+    //   ]
+    // },{
+    //   image: require("./assets/images/Calculator App.webp"),
+    //   projectName: "Simple Calculator",
+    //   projectDesc: "A simple operation solver calculator app, created using Flutter & Dart",
+    //   footerLink: [
+    //     {
+    //       name: "View Code",
+    //       url: "https://github.com/Yusuf80216/Calculator-App"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/Blood_Donation_App.webp"),
+    //   projectName: "Blood Donation App",
+    //   projectDesc: "A UI design implementation for a blood donation app, created using Flutter & Dart",
+    //   footerLink: [
+    //     {
+    //       name: "View Code",
+    //       url: "https://github.com/Yusuf80216/Blood-Donation_App"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
