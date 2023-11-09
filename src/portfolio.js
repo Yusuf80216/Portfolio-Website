@@ -159,7 +159,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Team Leader | Front-End Dev",
+      role: "Team Leader | ML Dev",
       company: "Smart India Hackathon",
       companylogo: require("./assets/images/sihLogo.webp"),
       date: "March 2022 – August 2022",
@@ -170,14 +170,14 @@ const workExperiences = {
       // ]
     },
     {
-      role: "Flutter Developer Intern",
+      role: "Software Developer Intern",
       company: "Alegria - The Festival of Joy",
       companylogo: require("./assets/images/alegriaLogo.webp"),
       date: "September 2022 – February 2023",
       desc: "Created the app for one of the largest college festival events in India. Developed the app using Flutter & Dart. Designed on Figma."
     },
     {
-      role: "Team Leader | Back-End Dev",
+      role: "Team Leader | ML/Backend Dev",
       company: "Deep Blue Hackathon by Mastek",
       companylogo: require("./assets/images/deepblueLogo.webp"),
       date: "December 2022 – April 2023",
@@ -224,6 +224,17 @@ const bigProjects = {
       ]
     },
     {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "AI Farmer's Assistant",
+      projectDesc: "An AI based Farmers Assistant tool that detects whether a crop is infected or healthy and gives farmers a suggestive crop for best production returns",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Yusuf80216/AI-Farmers-Assistant"
+        }
+      ]
+    },
+    {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Tweets Sentiment Analyzer",
       projectDesc: "A sentiment analyzer model which can detect based on the given tweet input, whether it is a positive tweet or a negative tweet",
@@ -243,17 +254,6 @@ const bigProjects = {
         {
           name: "View Code",
           url: "https://github.com/Yusuf80216/Health-Sector-Prediction/blob/main/Health%20Sector%20Prediction.ipynb"
-        }
-      ]
-    },
-    {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Rice Type Classification",
-      projectDesc: "This is an image classification project using VGG19, which detects the type of rice given as an image input.",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/Rice-Image-Classification-using-CNN/blob/main/Rice_Image_Classification_(CNN_VGG19).ipynb"
         }
       ]
     },
