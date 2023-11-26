@@ -327,7 +327,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon",
       subtitle:
-        "One of the few teams reach the Grand Finale of the National Hackathon",
+        "Qualified till Grand Finale of the National Hackathon",
       image: require("./assets/images/sihLogo.webp"),
       imageAlt: "Smart India Hackathon Logo",
       footerLink: [
@@ -352,7 +352,7 @@ const achievementSection = {
     {
       title: "Deep Blue Hackathon",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Qualified Semi-Finale of the hackathon",
       image: require("./assets/images/deepblueLogo.webp"),
       imageAlt: "Deep Blue Hackathon Logo",
       footerLink: [
