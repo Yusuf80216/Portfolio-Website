@@ -327,9 +327,9 @@ const achievementSection = {
     {
       title: "Smart India Hackathon",
       subtitle:
-        "Qualified till Grand Finale of the National Hackathon",
+        "Qualified Grand Finale of the National Hackathon",
       image: require("./assets/images/sihLogo.webp"),
-      imageAlt: "Smart India Hackathon Logo",
+      imageAlt: "SIH Logo",
       footerLink: [
         {
           name: "Internal Hackathon Certificate",
