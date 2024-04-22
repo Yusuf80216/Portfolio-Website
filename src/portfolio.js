@@ -23,7 +23,7 @@ const greeting = {
   username: "yusuf80216",
   title: "Hi all, I'm Yusuf",
   subTitle: emoji(
-    "Machine Learning Enthusiast | Aspiring Data Scientist"
+    "Artificial Intelligence | Generative AI | Machine Learning | Data Science"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1HUDcIRO7_7PXqQcSpszdlQlh4pH3PM7D/view?usp=sharing", // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE DATA AND BUILD ML MODELS!",
+  subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE DATA AND BUILD Generative AI Applications!",
   skills: [],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -105,8 +105,8 @@ const educationInfo = {
     {
       schoolName: "Pillai College of Engineering, Mumbai University",
       logo: require("./assets/images/CollegeLogo.webp"),
-      subHeader: "B. Tech in Computer Science",
-      duration: "July 2020 - June 2024",
+      subHeader: "B. Tech in Computer Science | Specialization in Artificial Intelligence and Data Science | Honours Degree in BlockChain",
+      duration: "July 2020 - May 2024 | CGPA - 8.5",
       desc: "Machine Learning | Artificial Intelligence | NLP | Software Engineering | Operating Systems | DBMS",
       // descBullets: [
       //   "",
@@ -130,6 +130,10 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Generative AI", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },  
+    {
       Stack: "Machine Learning", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },  
@@ -147,7 +151,7 @@ const techStack = {
     },
     {
       Stack: "LLMs",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -159,11 +163,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "AI Freelance",
+      company: "Saleman",
+      companylogo: require("./assets/images/freelance.jpg"),
+      date: "April 2024 – Present",
+      desc: "Working on building AI based solutions in Legal sector",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "Team Leader | Artificial Intelligence Intern",
+      company: "IIT Bombay",
+      companylogo: require("./IIT.png"),
+      date: "December 2023 – Present",
+      desc: "Working on building AI based solutions in healthcare sector. Managing a team of 10 members",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
       role: "Team Leader | ML Dev",
       company: "Smart India Hackathon",
       companylogo: require("./assets/images/sihLogo.webp"),
       date: "March 2022 – August 2022",
-      desc: "Lead the team, one of the few teams across the country to get qualified for Grand Finale for National Hackathon.",
+      desc: "Led the team, one of the few teams across the country to get qualified for Grand Finale for National Hackathon.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -198,8 +224,20 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME PROJECTS THAT I HAVE BUILT TILL NOW",
+  subtitle: "NOTABLE PROJECTS THAT I HAVE BUILT SO FAR...",
   projects: [
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Google Gemini Chatbot",
+      projectDesc: "An AI based chatbot for question answering with custom system prompts, and Image-based and Document-based question answering",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Yusuf80216/Gemini-Bot"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "AI Meetings Transcriber & Summarizer",
@@ -244,17 +282,6 @@ const bigProjects = {
           url: "https://github.com/Yusuf80216/Tweets-Sentiment-Analysis/blob/main/Natural_Language_Processing_with_Disaster_Tweets.ipynb"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Health Sector Classifier",
-      projectDesc: "This project involves classifying whether a particular person belongs to the Health sector or not, based on various parameters.",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Yusuf80216/Health-Sector-Prediction/blob/main/Health%20Sector%20Prediction.ipynb"
-        }
       ]
     },
     {
@@ -409,15 +436,21 @@ const blogSection = {
 const talkSection = {
   title: "Speaker Session",
   subtitle: emoji(
-    "Had a speaker session in college for engineering students on Flutter App Development"
+    ""
   ),
 
   talks: [
     {
       title: "Flutter App Development",
-      subtitle: "to College Students in 2023",
+      subtitle: "Conducted workshop on Flutter to 100+ engineering students across Mumbai",
       // slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7051618187854962689/"
+    },
+    {
+      title: "SIH Guidance",
+      subtitle: "Guided 200+ students for Smart India Hackathon and received salutations from CSI (Computer Society of India)",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://csi.pce.ac.in/events/5-5"
     }
   ],
   display: true // Set false to hide this section, defaults to true
