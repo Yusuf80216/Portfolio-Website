@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE DATA AND BUILD Generative AI Applications!",
+  subTitle: "A DEVELOPER WHO WANTS TO EXPLORE DATA AND BUILD Generative AI Applications!",
   skills: [],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
